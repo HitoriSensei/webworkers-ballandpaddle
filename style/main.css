@@ -66,3 +66,7 @@ canvas#game {
   top: 20px;
   left: 540px;
 }
+a {
+  color: white;
+  text-decoration: underscore;
+}

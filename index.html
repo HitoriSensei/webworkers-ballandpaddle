@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WebWorkers - Ball and paddle</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+<header>
+<h1>Ball and paddle, you know</h1>
+  <h2>WebWorkers for physics</h2>
+  <p>An example how can you use WebWorkers to calculate game physics in a seperate thread for more smooth experience.</p>
+  <p>Canvas is drawn at your monitor refresh and physics are calculated at fixed 200fps</p>
+</header>
+
+<br>
+
+<section class="main">
+  <canvas id="game" width="500px" height="500px">
+    Your browser must support HTML5 Canvas.
+  </canvas>
+  <div>
+    <span id="status"></span><br>
+    <span id="level"></span>
+  </div>
+  <div class="info">
+    <button type="button" id="show-debug-info">Gimme numbers</button>
+    <div class="figures">
+      <span id="fps-counter"></span><br>
+      <span id="mouse-pos"></span><br>
+      <span id="collision-brick"></span><br>
+      <span id="collision-paddle"></span><br>
+      <span id="collision-paddle-angle"></span><br>
+      <span id="speed"></span><br>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h5>Original code by Łukasz Strączyński</h5>
+</footer>
+
+<section class="description">
+
+</section>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="script/gui.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #2b3946;
+  color: #ffffff;
+  font-family: "Source Code Pro", monospace;
+}
+
+header {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h1 small {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+section.main {
+  display: inline-block;
+  position: relative;
+}
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  color: #2b3946;
+}
+
+.figures {
+  margin-top: 10px;
+
+  font-size: 14px;
+  line-height: 18px;
+}
+
+canvas#game {
+  margin: 20px 10px 20px 20px;
+  cursor: none;
+}
+
+#status {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info {
+  position: absolute;
+  text-align: left;
+
+  height: 100%;
+  width: 400px;
+
+  top: 20px;
+  left: 540px;
+}
